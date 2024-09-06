@@ -1,0 +1,142 @@
+.color-red{
+    color: red;
+}
+.border{
+    
+    border: 5px solid rgb(10, 9, 9);   
+    margin-top:10px ;
+    margin: 10px;
+    padding-left:20px;
+}
+ul li{
+    list-style-type:decimal;
+    
+
+ }
+
+
+ .products-area {
+    padding: 0 0 10px;
+    background-color:dimgray;
+}
+.single-featuer-box {
+    position: relative;
+    top: 10px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    border-radius: 5px;
+}
+.single-featuer-box:hover .feature-title h2{
+    color: #fff;
+    background: #EC9D2A;
+}
+.single-featuer-box:hover .feature-title h2::before{
+  border-top: 20px solid #EC9D2A;
+}
+.feature-title {
+    margin-bottom: -10px;
+}
+.feature-title h2 {
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #255946;
+    text-transform: capitalize;
+    background: #fff;
+    padding: 26px 0;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+.feature-thumb img {
+    width: 100%;
+}
+.feature-title h2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    z-index: -1;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-top: 20px solid #fff;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transition: .5s;
+    background: radial-gradient(black, transparent);
+}
+.single-featuer-box:hover .featuer-content {
+    opacity: 1;
+    bottom: 22px;
+}
+.single-featuer-box:hover .feature-thumb::before{
+    opacity: 1;
+}
+.featuer-content {
+    position: absolute;
+    bottom: -167px;
+    text-align: center;
+    opacity: 0;
+    transition: .5s;
+    z-index: 1;
+}
+.feature-text p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    padding: 12px 58px 0;
+    line-height: 1.8;
+}
+.feature-thumb {
+    position: relative;
+}
+.feature-thumb::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    background: rgba(135,192,61,0.80);
+    opacity: 0;
+    transition: .5s;
+}
+.feature-tmb i {
+    color: #fff;
+    font-size: 50px;
+}
+/*=====================================================================>
+    Chandan Yajee
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.chandan{
+
+}
+.chandan img{
+    width: 80% ;
+    height: 50%;
+}
+.continer{
+    
+    width: 80%;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    border-radius: 5px;
+
+}
+.chandan:hover .continer{
+    background-color: #fff;
+    color: red;
+
+};
+.chandan:hover .continer ::before{
+    background-color: #255946;
+    color: pink
+};
