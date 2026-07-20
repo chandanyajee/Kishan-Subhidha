@@ -1,2 +1,2 @@
 # Kishan-Subhidha
-THat a  kishan Subhidha Portal
+this is kishan Subhidha Portal
